@@ -3,24 +3,33 @@
   height: 100vh;
   padding: 12px;
 }
-.board ul {
+.board > ul {
   list-style: none;
   margin: 0;
   padding: 0;
   white-space: nowrap;
 }
-.board ul li {
+.lists > ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.board > ul > li {
   display: inline-block;
-  min-width: 120px;
+  min-width: 240px;
   background-color: beige;
   padding: 5px;
+  vertical-align: top;
 }
-.board ul li + li {
+.board > ul > li + li {
   margin-left: 12px;
 }
 
 .listtitle {
   font-weight: 500;
   margin: 0;
-  margin-bottom: 4px;
+  margin-bottom: 8px;
+  background: #e8e8e8;
+  padding: 8px;
+  border-radius: 4px;
 }
